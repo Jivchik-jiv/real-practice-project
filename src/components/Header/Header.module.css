@@ -1,0 +1,12 @@
+.header{
+    background: black;
+    color: white;
+    
+}
+
+.navWrap{
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: auto;
+}

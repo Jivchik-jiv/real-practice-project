@@ -1,0 +1,19 @@
+
+.nav{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.nav:first-of-type{
+    margin-left: 0;
+}
+
+.active{
+    color: red
+}
+
+ul.list{
+    margin: 16px 0;
+}
+

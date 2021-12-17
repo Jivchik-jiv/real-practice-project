@@ -1,0 +1,14 @@
+
+.nav{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.active{
+    color: red
+}
+
+ul.list{
+    margin: 16px 0;
+}

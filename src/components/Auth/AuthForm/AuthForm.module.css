@@ -1,0 +1,16 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label{
+    min-width: 400px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.labelText {
+    display: inline-block;
+    min-width: 60px;
+}

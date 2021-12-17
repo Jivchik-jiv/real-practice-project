@@ -1,0 +1,7 @@
+.mainWrap{
+    max-width: 900px;
+    margin: 10px auto 0;
+    background: black;
+    color: white;
+    min-height: 100vh;
+}
