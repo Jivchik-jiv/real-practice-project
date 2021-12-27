@@ -1,14 +1,57 @@
+.sideNav{
+}
+
+.img{
+    background: white;
+    border-radius: 50%;
+    width: 40px;
+    margin-top: 10px;
+    display: block;
+
+}
+
+.dropMenue{
+    position: fixed;
+    background: black;
+    top: 65px;
+    transform: translate(-100px);
+    overflow: hidden;
+    min-width: 150px;
+    min-height: 80px;
+    padding: 5px;
+    box-shadow: 0 0 2px 1px white;
+    
+}
+
+.list{
+    padding: 0;
+}
 
 .nav{
     color: white;
     text-decoration: none;
-    margin-left: 10px;
+    display: block;
+    margin-left: 35px;
+}
+
+.nonAuthNav{
+    color: white;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.authNav{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-left: 35px;
+    margin-bottom: 5px;
 }
 
 .active{
     color: red
 }
 
-ul.list{
-    margin: 16px 0;
-}
+
+

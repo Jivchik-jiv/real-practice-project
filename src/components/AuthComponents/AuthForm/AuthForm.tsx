@@ -28,7 +28,7 @@ const AuthForm = ({ action }: Props) => {
         <span className={styles.labelText}>Pass:</span>
         <input type="text" />
       </label>
-      <Button title={action}/>
+      <Button title={action} />
     </form>
   );
 };

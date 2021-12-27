@@ -1,4 +1,4 @@
-import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import { createSlice} from "@reduxjs/toolkit";
 import { current, login, logout, register } from "./AuthThunks";
 
 interface stateType{
@@ -17,7 +17,7 @@ const initialState={
   email: "",
   token:"",
   isFetching: false,
-  isAuthorized: false,
+  isAuthorized:false,
   isError: false,
   errorMessage: "",
 } as stateType;
@@ -83,7 +83,6 @@ export const authSlice = createSlice({
         state.isFetching=true;
       })
       .addCase(current.fulfilled, (state, {payload})=>{
-        debugger;
         state.isFetching=false;
         state.isAuthorized=true;
         state.email= payload.email;
@@ -103,7 +102,7 @@ export const authSlice = createSlice({
   export const { clearAuth } = authSlice.actions;
 
   export const authSelector=(state:{auth:stateType})=>state.auth;
-
+  export const selectUSerName=(state:{auth:stateType})=>state.auth.username;
 
 
 

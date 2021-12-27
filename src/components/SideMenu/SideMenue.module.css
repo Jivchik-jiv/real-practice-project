@@ -1,0 +1,32 @@
+.img{
+    background: white;
+    border-radius: 50%;
+    width: 80%;
+    padding: 5px;
+}
+
+.dropMenue{
+    position: absolute;
+    background: white;
+    top: 70px;
+    color: black;
+    overflow: hidden;
+    min-width: 100px;
+    min-height: 50px;
+    padding: 5px;
+    
+}
+
+.nav{
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    display: block;
+}
+
+.active{
+    color: red
+}
+
+ul.list{
+}

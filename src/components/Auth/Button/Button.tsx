@@ -1,15 +1,16 @@
-import * as React from 'react';
-import styles from './Button.module.css';
+import * as React from "react";
+import styles from "./Button.module.css";
 
-type Props={
-    title: string
-}
+type Props = {
+  title: string;
+};
 
-const Button =({title}:Props)=>{
-
-    return(
-        <button type="submit" className={styles.btn}>{title}</button>
-    )
-}
+const Button = ({ title }: Props) => {
+  return (
+    <button type="submit" className={styles.btn}>
+      {title}
+    </button>
+  );
+};
 
 export default Button;

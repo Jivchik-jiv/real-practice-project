@@ -1,0 +1,21 @@
+.profile {
+    text-align: center;
+}
+
+/* Styles for MiniProfile */
+
+.miniProfile{
+    display: flex;
+    margin-bottom: 15px;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.miniImg{
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.text{
+    margin: 0 5px;
+}

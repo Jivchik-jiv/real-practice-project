@@ -10,7 +10,8 @@
     signup: '/signup',
     profile: '/profile',
     contacts: '/contacts',
-    conntactView: '/contacts/:contctId'
+    conntactView: '/contacts/:contctId',
+    settings: '/settings'
 }
 
 export default routs;

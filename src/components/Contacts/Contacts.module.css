@@ -1,0 +1,29 @@
+.contactsWrap{
+    text-align: center;
+}
+
+ul.list{
+    max-width: 500px;
+    margin: auto;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 300px 50px 50px;
+    border-bottom: 1px solid white;
+}
+
+.form{
+    text-align: center;
+}
+
+.formBtn{
+    display: block;
+    margin: 10px auto;
+}
+
+.btn{
+    outline: none;
+}
